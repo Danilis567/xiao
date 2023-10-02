@@ -1,0 +1,66 @@
+nav {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #7158e2;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav h1 {
+  font-size: 42px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav ul li  {
+  margin-left: 1rem;
+  padding: 0.5rem;
+  border: 2px solid;
+  border-radius: 0.3rem;
+  background-color: white;
+  color: #7158e2;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.main {
+  max-width: 1200px;
+  margin: 2.5rem auto;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #7158e2;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
